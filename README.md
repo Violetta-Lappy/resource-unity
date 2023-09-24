@@ -1,2 +1,6 @@
 # resource-unity
-Resource for Unity Engine Project Development (Gui &amp; Shader)
+Resource for Unity Engine Project Development 
+
+- Gui (using UI Toolkit)
+- Shader (using HLSL not Shader Graph)
+- and Script (C#)
