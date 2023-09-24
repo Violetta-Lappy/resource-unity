@@ -1,0 +1,51 @@
+KEY,EN,VN
+K_NONE,NONE,NONE
+K_INFO,Information,Thong Tin
+K_CAUTION,Caution,Canh Bao
+K_WARNING,Warning,Nguy Hiem
+K_ERROR,Warning,Loi
+K_MIN,Minimum,Toi Thieu
+K_MID,Medium,Vua Phai
+K_MAX,Maximum,Toi Da
+K_MIX,Mix,Tron
+K_GREETING,Hello,Xin Chao
+K_THANKYOU,Thank You,Cam On
+K_LEADERBOARD,Leaderboard,Bang Xep Hang
+K_NEXT,Next,Tiep Tuc
+K_BACK,Back,Tro Ve
+K_NEWGAME,New Game,New Game
+K_LOADGAME,Load Game,Load Game
+K_TUTORIAL,Tutorial,Huong Dan
+K_HELP,Help,Tro Giup
+K_EXIT_TO_MAINMENU,Exit To Main Menu,Thoat Toi Man Hinh Chinh
+K_EXIT_TO_WINDOW,Exit To Window,Thoat Toi He Dieu Hanh
+K_EXIT_TO_OS,Exit To OS,Thoat Toi He Dieu Hanh
+K_HOME,Home,Man Hinh Chinh
+K_CHAPTER,Chaper,Chuong
+K_OPTION,Option,Cai Dat
+K_OPTION_GAME,Game,Game
+K_OPTION_DISPLAY,Display,Hinh Anh
+K_OPTION_AUDIO,Audio,Am Thanh
+K_OPTION_AUDIO_SLIDER_MASTER,Master,Master
+K_OPTION_AUDIO_SLIDER_MUSIC,Music,Music
+K_OPTION_AUDIO_SLIDER_SFX_GUI,Sfx Gui,Sfx Gui
+K_OPTION_AUDIO_SLIDER_SFX_GAME,Sfx Game,Sfx Game
+K_OPTION_LANGUAGE,Language,Ngon Ngu
+K_OPTION_LANGUAGE_MENU_TITLE,Choose Your Language,Lua Chon Ngon Ngu
+K_OPTION_LANGUAGE_ENGLISH,English,Tieng Anh
+K_OPTION_LANGUAGE_VIETNAMESE,Vietnamese,Tieng Viet
+K_GAMEPLAY_ELEMENT_TIMER,Timer,Thoi Gian
+K_GAMEPLAY_ELEMENT_TIMEATTACK,Time Attack,Thoi Gian Con Lai
+K_GAMEPLAY_ELEMENT_HIGHSCORE,High Score,Diem So
+K_GAMEPLAY_RESULT_ATROCIOUS,Atrocious,Vo Cung Te
+K_GAMEPLAY_RESULT_AWFUL,Awful,Te
+K_GAMEPLAY_RESULT_BAD,Bad,Xau
+K_GAMEPLAY_RESULT_AVERAGE,Average,Trung Binh
+K_GAMEPLAY_RESULT_OKAY,Okay,Okay
+K_GAMEPLAY_RESULT_GOOD,Good,Tot
+K_GAMEPLAY_RESULT_EXCELLENT,Excellent,Xuat Sac
+K_GAMEPLAY_RESULT_PERFECT,Perfect,Hoan Hao
+K_BUTTON_ACCEPT,Accept,Chap Nhan
+K_BUTTON_CANCEL,Cancel,Tu Bo
+K_BUTTON_BACK,Back,Quay Ve
+K_BUTTON_OKAY,Okay,Okay

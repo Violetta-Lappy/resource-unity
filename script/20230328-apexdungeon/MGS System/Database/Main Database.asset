@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dd3de1019a17b9468104ece2159008b, type: 3}
+  m_Name: Main Database
+  m_EditorClassIdentifier: 
+  enemyDB:
+  - {fileID: 329168664947825590, guid: c0f02a29cae636e40b1ad1f18ac7d2ad, type: 3}
+  - {fileID: 4173123264453207700, guid: f846cd580b8254c40b7322d4a097c3f8, type: 3}
+  - {fileID: 762277008350776768, guid: 5ba8fd5844e9475468e6b5782da83804, type: 3}
+  - {fileID: 6992854562764052195, guid: 6952c46c5aed7384494973f77624a0d7, type: 3}
+  minPerWave: 3
+  maxPerWave: 6
+  numOfWaves: 1
+  shopItemDB:
+  - {fileID: 11400000, guid: 17ec67143b5685245a7a89b660393a1a, type: 2}
+  - {fileID: 11400000, guid: 91aaee79e8c58db4c9c69fb4a6c1ef0b, type: 2}
+  shopSkillDB:
+  - {fileID: 11400000, guid: c933f19d505d47b4fa2f3d939ffd49a0, type: 2}
+  - {fileID: 11400000, guid: 2f9e1e64ac9938941bd9855c213db072, type: 2}
+  - {fileID: 11400000, guid: c5e6584303dfe0d4bb665f89d2443484, type: 2}
+  shopUpgradeDB:
+  - {fileID: 11400000, guid: 4a481e52321d45e489fa0a989e57ee75, type: 2}
+  - {fileID: 11400000, guid: d183cc5b8c112a142b6c86280995c8e2, type: 2}
+  - {fileID: 11400000, guid: ab143d73b5241a34da6c99df873c9f60, type: 2}
+  shopAttachDB:
+  - {fileID: 11400000, guid: 3c47516c2d0c41749993904bfe2c3d71, type: 2}
+  - {fileID: 11400000, guid: d28e2e4baab38d645ad2c235086432bb, type: 2}
+  - {fileID: 11400000, guid: f7dd012617004b540af66e3e47446726, type: 2}
+  - {fileID: 11400000, guid: 4b73e758d23249747aa936d6f1cf67ce, type: 2}
+  - {fileID: 11400000, guid: 91463ba1f3a17af438fa6f829a15868f, type: 2}
+  - {fileID: 11400000, guid: 00e93a50aa27ec442a1b695e1977f79a, type: 2}

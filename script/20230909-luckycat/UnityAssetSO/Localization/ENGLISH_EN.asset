@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4130cbad769c628489661fcd653ccaa3, type: 3}
+  m_Name: ENGLISH_EN
+  m_EditorClassIdentifier: 
+  enum_language: 1
+  isConsent: 0
+  str_hello: 
+  str_greeting: 
+  str_copyright: 
+  str_version: 
+  str_pressAnyKey: 
+  str_startGame: 
+  str_loadGame: 
+  str_gallery: 
+  str_option: 
+  str_credit: 
+  str_exit: 
+  str_gameModeTimeLimit: 
+  str_gameWin: 
+  str_gameDraw: 
+  str_gameOver: 
+  str_guiInfo: 
+  str_guiWarning: 
+  str_guiCaution: 
+  str_guiError: 
+  str_guiYes: 
+  str_guiNo: 
+  str_guiAccept: 
+  str_guiCancel: 
+  str_askRestartGame: 
+  str_askRestartCheckpoint: 
+  str_askSaveGame: 
+  str_askLoadGame: 
+  str_askBackToMainMenu: 
+  str_askExitToMainMenu: 
+  str_askExitToOS: 
+  str_mpJoinGame: 
+  str_serverNew: 
+  str_serverStop: 
+  str_accountFirstName: 
+  str_accountMiddleName: 
+  str_accountLastName: 
+  str_accountNickname: 
+  str_email: 
+  str_emailAlreadyExist: 
+  str_emailCannotExceed255Character: 
+  str_emailIsNotValid: 
+  str_emailIsValid: 
+  str_emailCreateSuccess: 
+  str_emailCreateFail: 
+  str_chat: 
+  str_chatUnableToConnect: 

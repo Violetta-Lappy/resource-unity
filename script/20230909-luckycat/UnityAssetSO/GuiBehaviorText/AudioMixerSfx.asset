@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c7d72330f23d654e8140cdfaab51aa6, type: 3}
+  m_Name: AudioMixerSfx
+  m_EditorClassIdentifier: 
+  OnGuiBehaviorButtonInit:
+    _PersistentCalls: []
+  OnPointerEnter:
+    _PersistentCalls: []
+  OnPointerHover:
+    _PersistentCalls: []
+  OnPointerExit:
+    _PersistentCalls: []
+  OnMouseDown:
+    _PersistentCalls: []
+  OnMouseHold:
+    _PersistentCalls: []
+  OnMouseRelease:
+    _PersistentCalls: []
+  OnMouseMove:
+    _PersistentCalls: []
+  OnMouseWheel:
+    _PersistentCalls: []
+  str_format: '{0}:{1}'

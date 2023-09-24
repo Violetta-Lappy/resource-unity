@@ -1,0 +1,58 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEditor;
+using UnityEngine;
+
+[CreateAssetMenu(menuName = "SO/SOGUIText")]
+public class SOGuiText : ScriptableObject {
+
+    [Header("EDITOR ONLY")]
+    [SerializeField] public ENUM_GUIPAGE enum_pageType;
+
+    public void TestGUID() => Debug.Log($"TEST - GUID: {CONST_GUIPAGE.Get_Text_GUID(enum_pageType)} ENUM_TYPE: {CONST_GUIPAGE.Get_Type_Page(str_guid).ToString()}");
+
+    [Header("DATA")]
+    [SerializeField] private string str_guid;
+    public void SetTextGuid(string _text) => str_guid = _text;
+    public string GetTextGuid() { return str_guid; }
+}
+
+[CustomEditor(typeof(SOGuiText))]
+public class SOGUITextEditor : Editor {
+    public override void OnInspectorGUI() {
+        var temp = target as SOGuiText;
+
+        if (GUILayout.Button("Update GUID")) {
+            temp.SetTextGuid(CONST_GUIPAGE.Get_Text_GUID(temp.enum_pageType));
+        }
+
+        if (GUILayout.Button("Test GUID")) {
+            temp.TestGUID();
+        }
+
+        // Remember to display the other GUI from the object if you want to see all its normal properties
+        base.OnInspectorGUI();
+    }
+}
+
+public enum ENUM_GUIELEMENT_TEXT {
+    K_NONE = 0,
+    K_OPTION_MIXER_MASTER,
+    K_OPTION_MIXER_MUSIC,
+    K_OPTION_MIXER_SFX,
+    K_OPTION_MIXER_SFX_UI,
+    K_OPTION_MIXER_SFX_GAME,
+    K_OPTION_MIXER_VOICE,
+    K_MONEY,
+    K_MONEY_COIN,
+    K_MONEY_PENNY,
+    K_MONEY_DIME,
+    K_MONEY_CRYSTAL,
+    K_GAME_STAT_HEALTH,
+    K_GAME_STAT_MANA,
+    K_GAME_VALUE_HIGHSCORE,
+    K_TIMER,
+    K_COMBO,
+    K_ENEMY_COUNT,
+    K_ENEMY_REMAIN,
+}

@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7458d992ff0a6fb49b74809638043a02, type: 3}
+  m_Name: InputMap-Example
+  m_EditorClassIdentifier: 
+  list_m_inputAction:
+  - {fileID: 11400000, guid: 2ff7afd8b00aa06409c26ddd9adba89a, type: 2}
+  - {fileID: 11400000, guid: b415a2cdf41d3bf4f8892cef7d7d54f9, type: 2}
+  - {fileID: 11400000, guid: 12d938d6c073ee946b5714973b7c59b5, type: 2}
+  - {fileID: 11400000, guid: 46309272936278d4c88096825bf18bb7, type: 2}
+  - {fileID: 11400000, guid: c2a0bddb92f1fff4b94d773d27ea8dca, type: 2}
+  - {fileID: 11400000, guid: bb55113efd1ff0b4ea61338958a4db70, type: 2}
+  - {fileID: 11400000, guid: 514fbb8aa2404b846bf7d1b8aeadfa79, type: 2}
+  - {fileID: 11400000, guid: 3f17b284d5eb4aa4b925372a22e4fcca, type: 2}
+  - {fileID: 11400000, guid: a300b4b888f91b84f877944470670163, type: 2}
+  - {fileID: 11400000, guid: 372867854101590459913ae77cced45b, type: 2}
+  - {fileID: 11400000, guid: eec28f9ba04e15f4e9161a5a6d8cd3b6, type: 2}
+  - {fileID: 11400000, guid: 9206ed736d0258344bc9449bf6bc6dcf, type: 2}
+  - {fileID: 11400000, guid: 5bd056581e8f7c64cab5b6a2ba3d88cb, type: 2}
+  - {fileID: 11400000, guid: b53c21b883c829145b1ab2d6925100ae, type: 2}
+  - {fileID: 11400000, guid: 0f63412f8fbd36541b6c512b3769a56f, type: 2}
+  - {fileID: 11400000, guid: 1952c3dc5220f6b42ba96c087adb74ef, type: 2}
+  - {fileID: 11400000, guid: eab219bf6de473b4f832cfa003ad9ff5, type: 2}
+  - {fileID: 11400000, guid: 8bebc6adf21c13c4eb1037b213a0f9e0, type: 2}
+  - {fileID: 11400000, guid: 02418fbaf746edb44b0442a978645ad4, type: 2}
+  list_m_inputContext:
+  - enum_contextType: 11
+    sz_m_keycode: 69000000
+  - enum_contextType: 12
+    sz_m_keycode: 6a000000
+  - enum_contextType: 13
+    sz_m_keycode: 6d000000
+  - enum_contextType: 7
+    sz_m_keycode: 1b00000008000000
+  - enum_contextType: 6
+    sz_m_keycode: 0d0000000f010000
+  - enum_contextType: 3
+    sz_m_keycode: 7300000012010000
+  - enum_contextType: 4
+    sz_m_keycode: 6100000014010000
+  - enum_contextType: 5
+    sz_m_keycode: 6400000013010000
+  - enum_contextType: 2
+    sz_m_keycode: 7700000011010000
+  - enum_contextType: 9
+    sz_m_keycode: 22010000
+  - enum_contextType: 8
+    sz_m_keycode: 1e010000
+  - enum_contextType: 18
+    sz_m_keycode: 430100007a000000
+  - enum_contextType: 23
+    sz_m_keycode: 65000000
+  - enum_contextType: 22
+    sz_m_keycode: 20000000
+  - enum_contextType: 15
+    sz_m_keycode: 7300000012010000
+  - enum_contextType: 16
+    sz_m_keycode: 6100000014010000
+  - enum_contextType: 17
+    sz_m_keycode: 6400000013010000
+  - enum_contextType: 14
+    sz_m_keycode: 7700000011010000
+  - enum_contextType: 25
+    sz_m_keycode: 7700000011010000
+  list_m_inputContextCombo:
+  - enum_contextType: 9
+    sz_m_keycode: 320100006c000000
+    isCombinationPressOnce: 0
+  - enum_contextType: 9
+    sz_m_keycode: 310100006c000000
+    isCombinationPressOnce: 0
+  - enum_contextType: 8
+    sz_m_keycode: 3201000073000000
+    isCombinationPressOnce: 0
+  - enum_contextType: 8
+    sz_m_keycode: 3101000073000000
+    isCombinationPressOnce: 0

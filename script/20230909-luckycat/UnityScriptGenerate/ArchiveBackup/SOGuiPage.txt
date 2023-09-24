@@ -1,0 +1,24 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+[CreateAssetMenu(menuName = "SO/GuiPage")]
+public class SOGuiPage : ScriptableObject {
+    public ENUM_GUIPAGE enum_type;
+    public string str_guid;
+
+    private void OnValidate() {
+        AutoUpdate_Inspector();
+    }
+
+    public void Set_Guid(string _text) => str_guid = _text;
+    public void Set_Guid_From_Type(ENUM_GUIPAGE _type) => Set_Guid(CONST_GUIPAGE.Get_Text_GUID(_type));
+    public string Get_Guid() { return str_guid; }
+    public void AutoUpdate_Inspector() {
+        AutoUpdate_Type();
+        AutoUpdate_Guid();
+    }
+    private void AutoUpdate_Type() => enum_type = CONST_GUIPAGE.Get_Type_Page(str_guid);
+    private void AutoUpdate_Guid() => str_guid = CONST_GUIPAGE.Get_Text_GUID(enum_type);
+}
